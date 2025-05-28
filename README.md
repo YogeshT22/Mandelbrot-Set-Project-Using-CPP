@@ -54,11 +54,9 @@ over complex numbers and renders the resulting fractal in a graphical window.
     ```
 
 3.  **Compile the project:**
-    *(Adjust the path to `main.cpp` if it's different, e.g., if it's directly in a `src` folder)*
     ```bash
     g++ -std=c++17 -o mandelbrot src-git/main.cpp -lSDL2
     ```
-    *(If your `main.cpp` is in a folder named `src`, it might be `src/main.cpp` or similar. The original path `src-git/main.cpp` seems a bit unusual unless you specifically named the folder `src-git`.)*
 
 ## Running the Application
 
@@ -70,7 +68,7 @@ After successfully building the project, execute the compiled binary from the pr
 A window will open displaying the Mandelbrot set.
 
 5. Controls
-  - Zoom In: Scroll up or press +
+   - Zoom In: Scroll up or press +
   - Zoom Out: Scroll down or press -
   - Pan: Arrow keys (←, →, ↑, ↓)
   - Reset View: Press r
